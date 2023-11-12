@@ -27,7 +27,7 @@ public class Problema01 {
         System.out.println("Ingrese el valor de la altura");
         altura = entrada.nextDouble();
         area = (base * altura) / 2;
-        System.out.printf("El valor del area del triangulo es: %s",
+        System.out.printf("El valor del area del triangulo es: %s\n",
                 area);
     }
 

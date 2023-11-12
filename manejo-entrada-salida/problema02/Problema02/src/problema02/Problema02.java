@@ -30,7 +30,7 @@ public class Problema02 {
         System.out.println("Ingrese los gastos del tercer hijo");
         gasto3 = entrada.nextDouble();
         gastoTotal = gasto1 + gasto2 + gasto3;
-        System.out.printf("El total de gastos de los hijos es: $%s",
+        System.out.printf("El total de gastos de los hijos es: $%s\n",
                 gastoTotal);
     }
 

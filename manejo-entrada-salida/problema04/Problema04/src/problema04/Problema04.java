@@ -33,7 +33,7 @@ public class Problema04 {
         System.out.println("Ingrese el valor del raton");
         mouse = entrada.nextDouble();
         valorTotal = computadora + teclado + pantalla + mouse;
-        System.out.printf("El valor total de la computadora es: $%s",
+        System.out.printf("El valor total de la computadora es: $%s\n",
                 valorTotal);
     }
 

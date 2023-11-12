@@ -27,7 +27,7 @@ public class Problema03 {
         System.out.println("Ingrese el numero de minutos usados en el mes");
         minutos = entrada.nextInt();
         costoTotal = costo * minutos;
-        System.out.printf("El valor de la planilla de telefono es: $%s",
+        System.out.printf("El valor de la planilla de telefono es: $%s\n",
                 costoTotal);
 
     }
