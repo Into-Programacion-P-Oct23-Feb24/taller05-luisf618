@@ -3,8 +3,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package problema01;
+
 import java.util.Scanner;
 import java.util.Locale;
+
 /**
  *
  * @author lcord
@@ -24,9 +26,9 @@ public class Problema01 {
         base = entrada.nextDouble();
         System.out.println("Ingrese el valor de la altura");
         altura = entrada.nextDouble();
-        area = (base*altura)/2;
+        area = (base * altura) / 2;
         System.out.printf("El valor del area del triangulo es: %s",
                 area);
     }
-    
+
 }
